@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav id="nav">
+        <ul>
+            <li>home</li>
+            <li>interactive</li>
+            <li>hidden info</li>
+            <li>form</li>
+        </ul>
+    </nav>
+    <h1>Welcome to My Webpage Page</h1>
+  </header>
+
+  <!-- Interactive Counter -->
+  <section>
+    <h2>Click Counter</h2>
+    <p>Click here</p>
+    <button id="countBtn">Click Me</button>
+    <p id="countDisplay">Count: 0</p>
+  </section>
+
+  <!--Show/Hide Info -->
+  <section>
+    <h2> Extra Info</h2>
+    <button id="toggleBtn">Show Info</button>
+    <p id="extraInfo" style="display: none;">
+      This is some hidden information revealed when you click the button.
+    </p>
+  </section>
+
+  <!-- Custom Form -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+  <footer id="footer">
+    <p>&copy; 2025 Annah Mwanza. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
